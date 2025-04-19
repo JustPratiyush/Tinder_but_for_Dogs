@@ -23,7 +23,7 @@
 }
 
 .profile-img {
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -63,4 +63,23 @@
 
 #pricing {
   margin-bottom: 150px;
+}
+
+.iphone {
+  height: 600px;
+}
+
+.Reviewer_Name {
+  padding-bottom: 40px;
+}
+
+.Company {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .iphone {
+    height: 400px;
+  }
 }
