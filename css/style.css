@@ -50,6 +50,12 @@
 
 .HeroText {
   padding-bottom: 50px;
+  font-size: 4rem;
+}
+
+.Intro {
+  align-self: flex-start;
+  padding-top: 100px;
 }
 
 * {
@@ -78,8 +84,33 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+#cta {
+  padding: 3% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+#cta > section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+@media (max-width: 767px) {
   .iphone {
     height: 400px;
+  }
+
+  .HeroText {
+    padding-bottom: 50px;
+    font-size: 2rem;
+  }
+
+  .Intro {
+    padding-top: 0;
+  }
+  .Downloads {
+    padding-top: 20px;
   }
 }
