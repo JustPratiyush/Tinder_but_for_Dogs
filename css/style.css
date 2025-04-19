@@ -42,3 +42,17 @@
   margin-top: 100px;
   margin-bottom: 20px;
 }
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.HeroText {
+  padding-bottom: 50px;
+  color: ;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
